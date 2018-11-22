@@ -16,9 +16,9 @@ class Fleet {
     create(data) {
         const newFleet = {
             id: uuid.v4(),
-            success: data.success || '',
-            lowPoint: data.lowPoint || '',
-            takeAway: data.takeAway || '',
+            driver: data.driver || '',
+            fleet: data.fleet || '',
+            fleetName: data.fleetName || '',
             createdDate: moment.now(),
             modifiedDate: moment.now()
         };
