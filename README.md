@@ -48,3 +48,81 @@ Testing is used at key checkpoints in the overall process to determine whether o
 
 ## Test Tool
 - [Mocha](https://mochajs.org/)
+
+
+
+## Test Tool
+- [Mocha](https://mochajs.org/)
+
+
+##### Server side tests
+
+```bash
+npm run test
+```
+
+
+<h3>END POINTS</h3>
+<hr>
+<table>
+  <tr>
+      <th>Request</th>
+      <th>End Point</th>
+      <th>Action</th>
+  </tr>
+  <tr>
+      <td>POST</td>
+      <td>/api/v1/fleets</td>
+      <td>Create a new fleet</td>
+  </tr>
+
+  <tr>
+      <td>GET</td>
+      <td>/api/v1/fleets</td>
+      <td>Get all fleets</td>
+  </tr>
+  <tr>
+        <td>GET</td>
+        <td>/api/v1/fleets/:id</td>
+        <td>Get a fleet by fleetid</td>
+  </tr>
+   <tr>
+      <td>PUT</td>
+      <td>/api/v1/fleets/:id</td>
+      <td>Update a fleet by fleetid</td>
+  </tr>
+ 
+  <tr>
+        <td>DELETE</td>
+        <td>/api/v1/fleets/:id</td>
+        <td>Delete fleet by fleetid</td>
+  </tr>
+
+   
+  
+  
+
+</table>
+<br>
+
+##### Testing Endpoints in POSTMAN
+
+## Create A Fleet
+
+![screencast](src/assets/images/create.PNG)
+
+## Get All Fleets
+
+![screencast](src/assets/images/get-all.PNG)
+
+## Get A  Fleet
+![screencast](src/assets/images/get.PNG)
+
+## Update A  Fleet
+
+![screencast](src/assets/images/update.PNG)
+
+
+## Author
+[Marizu-Ibewiro Makozi](https://makozi.netlify.com)
+
